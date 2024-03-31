@@ -80,7 +80,7 @@
   -ms-flex-align: stretch;
   align-items: stretch;
 	display: flex;
-  height: 100vh;
+  height: 100%;
 }
 .vc_custom_1466154433105 .vc_column_container .vc_column-inner {
   -webkit-box-flex: 1;
@@ -236,7 +236,7 @@
 }
 @media(min-width:769px){
   .row.row-o-full-height {
-    min-height: 100vh!important;
+    min-height: 100%!important;
   }
   .scheme_dark.site_footer_wrap {
     min-height: 100%!important;
