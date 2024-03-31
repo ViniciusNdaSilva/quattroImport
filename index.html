@@ -1,1286 +1,751 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js scheme_default">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Quattro Import</title>
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-  <!-- Bootstrap CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link href="css/all.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-
-  <!-- Google Fontes -->
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap"
-    rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
-
-
+	<title>Quattro Import</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<link rel="icon" href="images/Logo/favicon.svg" type="image/x-icon">
+	<link rel='stylesheet' id='trx_addons-icons-css'
+		href='js/vendor/plugins/trx_addons/css/font-icons/css/trx_addons_icons-embedded.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='trx_addons-css' href='js/vendor/plugins/trx_addons/css/trx_addons.css' type='text/css'
+		media='all' />
+	<link rel='stylesheet' id='woocommerce-layout-css'
+		href='js/vendor/plugins/woocommerce/assets/css/woocommerce-layout.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='woocommerce-smallscreen-css'
+		href='js/vendor/plugins/woocommerce/assets/css/woocommerce-smallscreen.css' type='text/css'
+		media='only screen and (max-width: 768px)' />
+	<link rel='stylesheet' id='woocommerce-general-css' href='js/vendor/plugins/woocommerce/assets/css/woocommerce.css'
+		type='text/css' media='all' />
+	<link rel='stylesheet' id='laon_wine_house-font-google_fonts-css'
+		href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic%7CLato:400,700&amp;subset=latin,latin-ext'
+		type='text/css' media='all' />
+	<link rel='stylesheet' id='laon_wine_house-fontello-css' href='css/fontello/css/fontello-embedded.css' type='text/css'
+		media='all' />
+	<link rel='stylesheet' id='laon_wine_house-main-css' href='css/style.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='laon_wine_house-animation-css' href='css/animation.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='laon_wine_house-colors-css' href='css/__colors.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='laon_wine_house-styles-css' href='css/__styles.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='laon_wine_house-custom-css' href='css/custom.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='laon_wine_house-responsive-css' href='css/responsive.min.css' type='text/css'
+		media='all' />
+	<link rel='stylesheet' id='vc_hotspot_cq_style-css'
+		href='js/vendor/plugins/vc-extensions-bundle/hotspot/css/style.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='tooltipster-css'
+		href='js/vendor/plugins/vc-extensions-bundle/profilecard/css/tooltipster.css' type='text/css' media='all' />
 </head>
 
-<body>
-  <!-- comon header  -->
-  <header class="float-start w-100">
-
-    <div class="mn-head">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light align-items-center justify-content-between">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/svg/Logo1.svg" alt="logo" class="mn-logo" />
-            <img src="images/svg/Logo2.svg" alt="logo" class="sc-logo" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu"
-            aria-controls="offcanvasExample">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-center">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">Sobre nós</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="shop.html">Produtos</a>
-              </li>
-
-              <li class="nav-item dropdown dropdown-mega position-static">
-                <a class="nav-link mega-menu-a dropdown-toggle" href="#!" data-bs-auto-close="outside">
-                  Produtores</a>
-
-                <ul class="dropdown-menu dropdown-menu2 shadow">
-                  <li class="mega-content px-5">
-                    <div class="container-fluid">
-                      <div class="row row-cols-md-5 justify-content-between">
-                        <div class="col">
-                          <div class="comon-menu-div">
-                            <h5>Produtores</h5>
-                            <hr />
-                            <ul class="list-unstyled largura-padrao">
-                              <li> <a href="CasaRomana.html"> Casa Romana Vini</a> </li>
-                              <li> <a href="#!"> Tua Foz </a> </li>
-                              <li> <a href="#!"> Herdade do Cebolal </a> </li>
-                              <li> <a href="#!"> Herdade de Mingorra </a> </li>
-                              <li> <a href="#!"> Quintal do Escudial </a> </li>
-                              <li> <a href="#!"> Quinta da lagoa Velha </a> </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="faq.html">Faq</a>
-              </li>
-
-
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contato</a>
-              </li>
-
-            </ul>
-
-          </div>
-          <a href="#" class="logo d-none col-4 m-auto text-center d-grid justify-content-center">
-            <img src="images/svg/Logo1.svg" alt="logo" />
-          </a>
-
-        </nav>
-      </div>
-    </div>
-  </header>
-  <!-- comon header ends  -->
-  <!-- Banner   -->
-  <div class="banner-part float-start w-100">
-
-    <div class="container">
-      <div class="css-slider-wrapper">
-        <input type="radio" name="slider" class="slide-radio1" checked id="slider_1" />
-        <input type="radio" name="slider" class="slide-radio2" id="slider_2" />
-        <input type="radio" name="slider" class="slide-radio3" id="slider_3" />
-
-
-        <!-- Slider Pagination -->
-        <div class="slider-pagination">
-          <label for="slider_1" class="page1">
-
-          </label>
-          <label for="slider_2" class="page2">
-
-          </label>
-          <label for="slider_3" class="page3">
-
-          </label>
-
-        </div>
-
-        <!-- Slider #1 -->
-        <div class="slider slide-1 d-md-flex">
-          <div class="img-div">
-
-            <div class="spring-animation">
-              <img src="images/main-wine.png" alt="bn1" />
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="slider-content font-especial">
-              <h4>Prove nosso</h4>
-              <h2>Altamente concentrado
-                <span class="d-block"> Vinho Vintage
-              </h2>
-              <p> Intenso e encorpado, nosso vinho tinto cativa paladares com notas ricas e um final persistente. Uma
-                experiência inesquecível.</p>
-              <button type="button" class="buy-now-btn" name="button"> <i class="fas fa-receipt"></i> <a
-                  class="botao-comprar" href="products-details.html">Comprar</a></button>
-            </div>
-          </div>
-
-
-        </div>
-
-        <!-- Slider #2 -->
-        <div class="slider slide-2 d-md-flex">
-
-          <div class="img-div">
-
-            <div class="spring-animation">
-              <img src="images/main-wine2.png" alt="bn1" />
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="slider-content font-especial">
-              <h4>Hoje especial</h4>
-              <h2> Desconto 50%
-                <span class="d-block">Todo Vinho Tinto</span>
-              </h2>
-              <p>Desfrute de uma explosão de sabores com nosso Vinho Tinto, agora com 50% de desconto. Uma oportunidade
-                imperdível!</p>
-              <button type="button" class="buy-now-btn" name="button"> <i class="fas fa-receipt"></i><a
-                  class="botao-comprar" href="products-details.html"> Peça agora</a>
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-
-        <!-- Slider #3 -->
-        <div class="slider slide-3 d-md-flex">
-
-          <div class="img-div">
-            <div class="spring-animation">
-              <img src="images/main-wine3.png" alt="bn1" />
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="slider-content font-especial">
-              <h4>Prove o nosso vinho</h4>
-              <h2> Vinho de qualidade de
-                <span class="d-block"> Cultivado orgânica </span>
-              </h2>
-              <p>Refrescante e elegante, nosso vinho branco revela a sofisticação de sabores frutados e uma acidez
-                equilibrada. Uma jornada de frescor.</p>
-              <button type="button" class="buy-now-btn" name="button"> <i class="fas fa-receipt"></i> <a
-                  class="botao-comprar" href="products-details.html"> Peça agora</a>
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-
-
-      </div>
-    </div>
-
-  </div>
-
-
-
-  <!-- Total Body  -->
-  <section class="total-body d-block float-start w-100">
-
-
-    <div class="top-offer-div-sec">
-      <div class="container">
-
-        <div class="row row-cols-1 row-cols-lg-3 gx-lg-5 pt-5 justify-content-between align-items-center">
-          <div class="col">
-            <a href="#" class="comon-offer mb-5 mb-lg-0">
-              <figure>
-                <img src="images/109076-cypruswine-Cyprus-Maratheftiko-Shiraz-wine-748x549.jpg" alt="bg" />
-              </figure>
-              <h5 class="col-9 m-auto"> <span class="d-block"> Vinícola Quattro: seu vinho, </span>
-                frete grátis.</h5>
-            </a>
-          </div>
-          <div class="col">
-            <a href="#" class="comon-offer mb-5 mb-lg-0">
-              <figure>
-                <img src="images/istockphoto-1183406603-170667a.jpg" alt="bg" />
-              </figure>
-              <h5 class="col-9 m-auto"> <span class="d-block"> Quattro: 20% OFF</span>
-                em todos os vinhos.</h5>
-            </a>
-          </div>
-          <div class="col">
-            <a href="#" class="comon-offer mb-5 mb-lg-0">
-              <figure>
-                <img src="images/navbharat-times.jpg" alt="bg" />
-              </figure>
-              <h5 class="col-9 m-auto"> <span class="d-block"> Quattro: qualidade garantida,</span>
-                sua satisfação em primeiro lugar. </h5>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="Prodcuts-div py-5">
-      <div class="container py-4 font-especial">
-        <h6 class="text-center"> <span></span> Nossos melhores produtos </h6>
-        <h2 class="text-center text-white comon-heading"> Recomendações </h2>
-
-        <div class="products-slide">
-          <div class="filter-container">
-
-            <div class="row g-md-5 mt-0 row-cols-1 row-cols-md-2 row-cols-lg-4 mt-5">
-
-              <div class="col ">
-                <div class="produc-div">
-                  <div class="products-box">
-
-                    <figure>
-                      <img src="images/product-3.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> Cottage Red </a>
-
-                    <!-- <div class="d-flex align-items-center justify-content-center">
-                      <h5 class="price-text ">  R$29.00 </h5>
-                    </div>-->
-
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="produc-div">
-                  <div class="products-box">
-                    <div class="offer-text-div"> 40% off </div>
-                    <figure>
-                      <img src="images/product-5.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> Dry Riesling </a>
-
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="produc-div">
-                  <div class="products-box">
-                    <div class="offer-text-div"> 30% off </div>
-                    <figure>
-                      <img src="images/product-7.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> 2003 Smith Woodhouse – 750ml </a>
-
-                    <!-- <div class="d-flex align-items-center justify-content-center">
-                      <h5 class="price-text ">  R$29.00 </h5>
-                    </div>-->
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="produc-div">
-                  <div class="products-box">
-
-                    <figure>
-                      <img src="images/product-8.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> 2017 Cabernet Sauvignon </a>
-
-                  </div>
-
-                </div>
-              </div>
-
-
-
-              <div class="col">
-                <div class="produc-div">
-                  <div class="products-box">
-                    <div class="offer-text-div"> 30% off </div>
-                    <figure>
-                      <img src="images/product-9.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> Pinot Grigio </a>
-
-
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col ">
-                <div class="produc-div">
-                  <div class="products-box">
-
-                    <figure>
-                      <img src="images/product-3.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> Nebbiolo d'Alba Rizieri </a>
-
-
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="produc-div">
-                  <div class="products-box">
-
-                    <figure>
-                      <img src="images/product-5.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> Greco di Tufo I Capitani </a>
-
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="produc-div">
-                  <div class="products-box">
-
-                    <figure>
-                      <img src="images/product-7.png" alt="pic" />
-
-                    </figure>
-                    <div class="hover-show-bn">
-
-                      <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                    </div>
-                  </div>
-
-                  <div class="ps-details text-center">
-                    <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                    <a href="#" class="products-titel m-auto"> 2020 Limited Release Le Rosé </a>
-
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="home-about position-relative py-5">
-      <div class="container">
-
-        <div class="row gx-lg-5 row-cols-1 row-cols-md-2">
-          <div class="col position-relative">
-            <figure>
-              <img src="images/about-his.png" />
-            </figure>
-
-
-          </div>
-          <div class="col font-especial">
-            <!-- <h2> Consultants you can trust </h2> -->
-            <h6> Sobre nós </h6>
-            <h2> A história por trás <br /> da Quatro Import </h2>
-            <p> A Quattro é uma importadora de vinhos portugueses, de pequenos e médios produtores, cujos vinhos estão
-              nas melhores adegas, restaurantes e lojas do mundo. <br><br> Nossa relação com o produtor é
-              personalíssima, somos os importadores exclusivos de tais produtos no Brasil. <br><br> Oferecemos ao
-              mercado brasileiro uma experiência que apenas poderiam ter em outros lugares do mundo.</p>
-            <a href="about.html" class="btn about-bn"> Saiba Mais <i class="fas fa-long-arrow-alt-right"></i> </a>
-          </div>
-
-
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="our-production-div py-5">
-      <div class="container">
-        <h6 class="text-center"> Não perca hoje </h6>
-        <h2 class="text-center text-white comon-heading"> Confira as principais ofertas </h2>
-        <div class="row g-md-5 mt-0 row-cols-1 row-cols-md-2 row-cols-lg-4 ">
-
-          <div class="col ">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-3.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                <a href="#" class="products-titel m-auto"> 2020 Limited Release Le Rosé </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$49.00 </h5>
-                  <h5 class="price-text ms-3"> R$29.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-5.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">veneto</a>
-                <a href="#" class="products-titel m-auto"> Cabernet Sauvignon </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$39.00 </h5>
-                  <h5 class="price-text ms-3"> R$20.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-7.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">Mead</a>
-                <a href="#" class="products-titel m-auto"> Paul Mas Cabernet Sauvignon </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$49.00 </h5>
-                  <h5 class="price-text ms-3"> R$29.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-8.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                <a href="#" class="products-titel m-auto"> Ou Kalant 2020 </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$59.00 </h5>
-                  <h5 class="price-text ms-3"> R$29.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-
-          <div class="col">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-9.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                <a href="#" class="products-titel m-auto"> Emiliana Vineyards </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$49.00 </h5>
-                  <h5 class="price-text ms-3"> R$29.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col ">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-8.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                <a href="#" class="products-titel m-auto"> Cosecha Tarapaca </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$49.00 </h5>
-                  <h5 class="price-text ms-3"> R$29.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-5.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                <a href="#" class="products-titel m-auto"> Fratelli, Sette 2019 </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$49.00 </h5>
-                  <h5 class="price-text ms-3"> R$29.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="produc-div">
-              <div class="products-box">
-                <figure>
-                  <img src="images/product-3.png" alt="pic" />
-
-                </figure>
-                <div class="hover-show-bn">
-
-                  <a href="#" class="comon-hv-bn"> <i class="fa-solid fa-square-arrow-up-right"></i> </a>
-                </div>
-              </div>
-
-              <div class="ps-details text-center">
-                <a href="#" class="cate-text d-table text-center m-auto">organic</a>
-                <a href="#" class="products-titel m-auto"> Cabernet Sauvignon 2020 </a>
-
-                <div class="d-flex align-items-center justify-content-center">
-                  <h5 class="old-pice text-decoration-line-through"> R$49.00 </h5>
-                  <h5 class="price-text ms-3"> R$29.00 </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="choose-bread py-5">
-      <div class="container">
-
-        <div class="row row-cols-1 row-cols-lg-2 flex-column-reverse flex-lg-row">
-
-          <div class="col">
-            <div class="comon-special">
-              <h6> <span></span> 100% natural </h6>
-              <h2 class="mb-5"> Visite para uma degustação</h2>
-              <div class="d-flex justify-content-between">
-                <div class="col-3 col-md-2">
-                  <figure class="icon-sp">
-                    <img src="images/3401521.png" alt="bnerpic" />
-                  </figure>
-                </div>
-                <div class="col-9 col-md-10">
-                  <h5> Vinhos Exclusivos </h5>
-                  <p> Descubra rótulos únicos, diretamente dos produtores às suas taças.</p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="comon-special">
-              <div class="d-flex justify-content-between">
-                <div class="col-3 col-md-2">
-                  <figure class="icon-sp">
-                    <img src="images/2872086.png" alt="bnerpic" />
-                  </figure>
-                </div>
-                <div class="col-9 col-md-10">
-                  <h5> Origens Autênticas</h5>
-                  <p> Explore terroirs autênticos que dão vida a nossos vinhos distintos.</p>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div class="comon-special">
-              <div class="d-flex justify-content-between">
-                <div class="col-3 col-md-2">
-                  <figure class="icon-sp">
-                    <img src="images/2727975.png" alt="bnerpic" />
-                  </figure>
-                </div>
-                <div class="col-9 col-md-10">
-                  <h5> Parceiros de Sabor </h5>
-                  <p> Conectamos produtores e consumidores, trazendo paixão e qualidade à sua mesa. </p>
-                </div>
-              </div>
-
-            </div>
-
-            <a href="#" class="btn about-bn"> Visite a vinícola <i class="fas fa-long-arrow-alt-right"></i> </a>
-
-
-          </div>
-          <div class="col">
-            <figure class="middle-big-pic">
-              <img src="images/6022263c97d5fb0021955751_optimized_740_c740x1120-0x0.webp" alt="wine" />
-            </figure>
-          </div>
-
-
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="first-order-div">
-      <div class="container">
-        <h6 class="text-center text-white h3"> Vinho de luxo </h6>
-        <h2 class="text-center text-white"> Ganhe 10% extra de desconto no seu primeiro pedido </h2>
-        <p class="text-center text-white col-md-7 m-auto"> Em cada taça, revelamos o luxo engarrafado. Nosso vinho
-          excede as expectativas, oferecendo uma jornada sensorial única e refinada, onde o requinte encontra a
-          excelência.</p>
-        <a href="#" class="btn shop-bn-offer"> Comprar Agora</a>
-      </div>
-    </div>
-
-    <div class="testimonal-sec pt-5 position-relative">
-
-      <div class="container">
-        <h6 class="text-center"> <span></span>Oque estão dizendo?</h6>
-        <h2 class="text-center">Depoimentos de clientes</h2>
-
-        <div class="silder-div-text mt-5 pb-5">
-          <div class="w-100 overflow-hidden">
-            <div class="best-sl-m owl-carousel owl-theme">
-              <div class="item  m-auto">
-                <div class="comon-div-ts">
-                  <h5> " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy. "</h5>
-                  <span class="start">
-                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                      class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </span>
-                </div>
-
-                <div class="d-flex mt-4 ">
-
-                  <h4> Jone Due, <span class="d-block"> -Italy </span> </h4>
-                </div>
-
-              </div>
-
-              <div class="item  m-auto">
-                <div class="comon-div-ts">
-                  <h5> " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy. "</h5>
-                  <span class="start">
-                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                      class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </span>
-                </div>
-                <div class="d-flex mt-4 ">
-
-                  <h4> Jone Due, <span class="d-block"> -Italy </span> </h4>
-                </div>
-              </div>
-
-              <div class="item  m-auto">
-                <div class="comon-div-ts">
-                  <h5> " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy. "</h5>
-                  <span class="start">
-                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                      class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </span>
-                </div>
-
-                <div class="d-flex mt-4 ">
-
-                  <h4> Jone Due, <span class="d-block"> -Italy </span> </h4>
-                </div>
-
-              </div>
-
-              <div class="item m-auto">
-                <div class="comon-div-ts">
-                  <h5> " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy. "</h5>
-                  <span class="start">
-                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                      class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </span>
-                </div>
-
-                <div class="d-flex mt-4 ">
-
-                  <h4> Jone Due, <span class="d-block"> -Italy </span> </h4>
-                </div>
-
-              </div>
-
-              <div class="item m-auto">
-                <div class="comon-div-ts">
-                  <h5> " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy. "</h5>
-                  <span class="start">
-                    <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                      class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </span>
-                </div>
-                <div class="d-flex mt-4 ">
-
-                  <h4> Jone Due, <span class="d-block"> -Italy </span> </h4>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="tesimonial-sec-div">
-        <figure>
-          <img src="images/602220dceb0d5d0021b07740_optimized_740_c711x1076-6x22.webp" alt="pic" />
-        </figure>
-      </div>
-    </div>
-
-
-    <div class="news-sec-div">
-      <div class="container">
-        <h6 class="text-center"> <span></span> Parceiros </h6>
-        <h2 class="text-center"> Conheça nosso parceiros</h2>
-        <div class="news-sec-div-part mt-5">
-          <div class="news-slid owl-carousel owl-theme">
-            <div class="item">
-              <div class="comon-news-part">
-                <div class="comon-pic-news">
-                  <figure class="position-relative">
-                    <a href="#"> <img src="images/cards-parceiros/ casa-romana-bg.png" alt="picb" /> </a>
-                  </figure>
-                  <div class="date-text"> <img src="images/cards-parceiros/ casa-romana-logo.svg" alt=""> </div>
-                </div>
-                <div class="dtails-idv-text">
-                  <h5> CASA ROMANA VINI </h5>
-                  <p> Durante várias centenas de anos, ambas as fazendas foram ocupadas pela cultura da vinha, e é esse
-                    legado e tradição que a família pretende manter e enaltecer por muitos mais anos.</p>
-                  <p>Pedro Barreira - CEO Casa Romana Vini</p>
-                  <a href="#" class="btn read-more-bn text-uppercase"> Saber Mais </a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="comon-news-part">
-                <div class="comon-pic-news">
-                  <figure class="position-relative">
-                    <a href="#"> <img src="images/cards-parceiros/foztua-bg.png" alt="picb" /> </a>
-                  </figure>
-                  <div class="date-text"> <img src="images/cards-parceiros/ foztua-logo.svg" alt=""> </div>
-                </div>
-                <div class="dtails-idv-text">
-                  <h5> FOZ TUA </h5>
-                  <p> Foz Tua, vinícola no Alto Douro desde 2014, explora terroir especial em propriedade de 4 hectares.
-                    Vinhas com mais de 30 anos produzem vinhos DOC Douro singulares. <br> Compromisso familiar em
-                    homenagem à Foz do Tua.</p>
-                  <a href="#" class="btn read-more-bn text-uppercase"> Saber Mais </a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="comon-news-part">
-                <div class="comon-pic-news">
-                  <figure class="position-relative">
-                    <a href="#"> <img src="images/cards-parceiros/herdade-do-cebolal-bg.png" alt="picb" /> </a>
-                  </figure>
-                  <div class="date-text"> <img src="images/cards-parceiros/herdade-do-cebolal-logo.svg" alt=""> </div>
-                </div>
-                <div class="dtails-idv-text">
-                  <h5> HERDADE DO CEBOLAL </h5>
-                  <p> A Herdade do Cebolal, gerida por Isabel Mota Capitão e Luís Lufinha Mota Capitão desde 1890,
-                    combina vinha e floresta na Costa Alentejana. Destaque para Agricultura Sintrópica e viticultura
-                    sustentável, criando vinhos autênticos de baixa intervenção química na adega.</p>
-                  <a href="#" class="btn read-more-bn text-uppercase"> Saber Mais </a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="comon-news-part">
-                <div class="comon-pic-news">
-                  <figure class="position-relative">
-                    <a href="#"> <img src="images/cards-parceiros/mingorra-bg.png" alt="picb" /> </a>
-                  </figure>
-                  <div class="date-text"> <img src="images/cards-parceiros/mingorra-logo.svg" alt=""> </div>
-                </div>
-                <div class="dtails-idv-text">
-                  <h5> HERDADE DA MINGORRA </h5>
-                  <p> Herdade da Mingorra, vinícola familiar no Alentejo, há 40 anos do Sr. Henrique Uva. Com 1400
-                    hectares, destaca-se pela vinha, olival, amendoal e Montado Alentejano. Nas vinhas, Pedro Hipólito
-                    escolhe castas para vinhos de alta qualidade, expressando o caráter único da propriedade.</p>
-                  <a href="#" class="btn read-more-bn text-uppercase"> Saber Mais </a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="comon-news-part">
-                <div class="comon-pic-news">
-                  <figure class="position-relative">
-                    <a href="#"> <img src="images/cards-parceiros/quinta-do-escudial-bg.png" alt="picb" /> </a>
-                  </figure>
-                  <div class="date-text"> <img src="images/cards-parceiros/quinta-do-escudial.svg" alt=""> </div>
-                </div>
-                <div class="dtails-idv-text">
-                  <h5> QUINTA DO ESCUDIAL </h5>
-                  <p> O Escudial, cenário de festas e tradições, perdeu sua imponente Pinheira para um tufão. O
-                    proprietário, Dr. Alfredo, vendo isso como milagre, ergueu uma capela. Em 2003, José e Estefânia
-                    iniciaram a produção exclusiva de vinhos sem madeira, criando um estilo único e consensual.</p>
-                  <a href="#" class="btn read-more-bn text-uppercase"> Saber Mais </a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="comon-news-part">
-                <div class="comon-pic-news">
-                  <figure class="position-relative">
-                    <a href="#"> <img src="images/cards-parceiros/Lagoa-Velha-bg.png" alt="picb" /> </a>
-                  </figure>
-                  <div class="date-text"> <img src="images/cards-parceiros/QUINTADALAGOA-logo.svg" alt=""> </div>
-                </div>
-                <div class="dtails-idv-text">
-                  <h5> QUINTA DA LAGOA VELHA </h5>
-                  <p> A Quinta da Lagoa Velha, fundada em 1969, é uma empresa familiar na Bairrada. Liderada por Carla
-                    Neto, a terceira geração, destaca-se pela produção cuidadosa de vinhos únicos, unindo tradição e
-                    inovação.</p>
-                  <a href="#" class="btn read-more-bn text-uppercase"> Saber Mais </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-
-
-
-
-  <!-- footer  -->
-  <footer class="float-start w-100">
-    <div class="subsribe-div py-5 pb-3">
-      <div class="container">
-        <h6 class="text-center text-white"> Diga Conectar </h6>
-        <h2 class="text-center text-white"> RECEBA O NOSSO PORTFÓLIO </h2>
-        <p class="text-center Font text-white">Inscreva-se agora para receber em primeira mão nosso exclusivo portfólio,
-          repleto de descontos irresistíveis e emocionantes novidades vinícolas.</p>
-        <div class="col-md-6 m-auto bg-white">
-          <div class="d-flex align-items-center justify-content-between">
-            <div class="col-9">
-              <input type="text" class="form-control" placeholder="Seu Email" />
-            </div>
-            <div class="col-3">
-              <input type="submit" class="btn subscribe-bn" value="Se inscrever" />
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr />
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-md-4 footer-bottom-div">
-        <div class="col">
-          <div class="comon-footer">
-            <img src="images/svg/Logo1.svg" alt="logo">
-            <p class="text-white col-lg-9 Font mt-3"> Sabor único, qualidade excepcional.
-            </p>
-            <ul class="list-unstyled socal">
-              <li> <a target="_blank" href="https://www.linkedin.com/company/quattro-import-iec/"> <i
-                    class="bi bi-linkedin"></i> </a>
-                <a target="_blank" href="https://www.instagram.com/quattro.import/"> <i class="bi bi-instagram"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="comon-footer ">
-            <h5> Endereço </h5>
-            <ul class="list-unstyled">
-              <li> <a class="Font" href="#">Anita Garibaldi, 850 - Sala 203 Torre Royal - Curitiba - Pr </a> </li>
-              <li> <a class="Font" target="_blank" href="mailto:contato@quattroimport.com"> Email:
-                  contato@quattroimport.com </a></li>
-              <li> <a class="Font" href="tell:(41)21186655"> Fone: 41 2118-6655</a> </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="comon-footer">
-            <h5> Acesso </h5>
-            <ul class="list-unstyled">
-              <li> <a class="Font" href="#"> Sobre nós </a> </li>
-              <li> <a class="Font" href="#"> FAQ </a></li>
-              <li> <a class="Font" href="#"> Produtos </a> </li>
-
-            </ul>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="comon-footer">
-            <h5> Fale conosco </h5>
-            <ul class="list-unstyled">
-              <li> <a class="Font" href="#"> Suporte </a> </li>
-              <li> <a class="Font" href="#"> Informações </a> </li>
-              <li> <a class="Font" href="#"> Dúvidas </a> </li>
-
-            </ul>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-
-    <div class="copy-text">
-      <div class="container">
-        <div class="d-grid  justify-content-between text-center d-table m-auto">
-          <div class="text-white font">Desenvolvido por <a class="font" target="_blank"
-              href="https://vinssoftware.com.br/">VinsSoftware</a> © 2023. Todos Direitos reservados a Quattro Import.
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </footer>
-
-
-  <!-- age verify Modal -->
-  <div class="modal fade verify-modal" id="ageModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-
-        <div class="modal-body text-center">
-          <div class="col-lg-3 text-center d-block m-auto">
-            <img src="images/logo.png" alt="logom" />
-          </div>
-          <h2 class="mt-3"> You must be over 18 years old <br /> to visit this site? </h2>
-          <div class="col-lg-10 m-auto d-flex my-4 align-items-center justify-content-center">
-            <a href="#" class="btn yes-bn mt-0" data-bs-dismiss="modal"> Yes, i am over 18 -Enter </a>
-
-          </div>
-          <p class="text-center col-lg-7 m-auto text-center"> By entering this website, you certify that you are 18
-            years old. </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- Pop Up   -->
-  <div id="overlay" class="overlay">
-    <div class="popup">
-      <p>Tem idade legal para consumo de bebidas alcoólicas?</p>
-      <p>
-        A Quattro Import defende o consumo responsável e moderado de bebidas
-        alcoólicas. <br />
-        Para acessar nosso site é necessário ter idade legal para o consumo de
-        bebidas. <br />
-        Seja responsável. Beba com moderação.
-      </p>
-      <button onclick="confirmAge(true)">Sim, sou maior de 18 anos</button>
-      <button onclick="confirmAge(false)">Não, tenho menos de 18 anos</button>
-    </div>
-  </div>
-
-
-
-  <!-- mobile menu -->
-
-  <div class="offcanvas offcanvas-start mobile-menu-div" tabindex="-1" id="mobile-menu"
-    aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <button type="button" class="close-menu" data-bs-dismiss="offcanvas" aria-label="Close">
-        <span> Fechar </span> <i class="fas fa-long-arrow-alt-right"></i>
-      </button>
-    </div>
-
-    <div class="offcanvas-body">
-      <div class="head-contact">
-        <a href="index.html" class="logo-side">
-          <img src="images/svg/Logo2.svg" alt="logo" />
-        </a>
-
-        <div class="mobile-menu-sec mt-3">
-          <ul class="list-unstyled">
-            <li class="active-m">
-              <a href="index.html"> Home </a>
-            </li>
-            <li>
-              <a href="about.html"> Sobre Nós </a>
-            </li>
-
-            <li class="dropdown">
-              <button class="btn mega-btn col-12 text-start dropdown-toggle" type="button" id="dropdownMenuButton1"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Produtores
-              </button>
-              <ul class="dropdown-menu mobile-mega-menu" aria-labelledby="dropdownMenuButton1">
-                <li>
-                  <div class="comon-menu-div">
-                    <h5 class="mb-3">Produtores</h5>
-                    <ul class="list-unstyled">
-                      <li>
-                        <a class="dropdown-item" href="CasaRomana.html">
-                          Casa Romana Vini
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#!"> Tua Foz </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#!">
-                          Herdade do Cebolal
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#!">
-                          Herdade de Mingorra
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#!">
-                          Quintal do Escudial
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#!">
-                          Quinta da lagoa Velha
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="faq.html"> FAQ </a>
-            </li>
-            <li>
-              <a href="contact.html"> Contato </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <!-- Owl Carousel -->
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/custom.js"></script>
-
-  <script src="js/script.js"></script>
-
-  <script type="text/javascript" src="js/jquery.simplePagination.js"></script>
-
-  <script>
-    var TIMEOUT = 6000;
-
-    var interval = setInterval(handleNext, TIMEOUT);
-
-    function handleNext() {
-      var R$radios = R$('input[class*="slide-radio"]');
-      var R$activeRadio = R$('input[class*="slide-radio"]:checked');
-
-      var currentIndex = R$activeRadio.index();
-      var radiosLength = R$radios.length;
-
-      R$radios.attr("checked", false);
-
-      if (currentIndex >= radiosLength - 1) {
-        R$radios.first().attr("checked", true);
-      } else {
-        R$activeRadio.next('input[class*="slide-radio"]').attr("checked", true);
-      }
-    }
-
-  </script>
-
+<body
+	class="home page page-id-691 page-template-default body_tag body_style_wide scheme_default blog_mode_home  is_stream blog_style_excerpt sidebar_hide expand_content remove_margins header_style_header-1 header_position_over header_title_off menu_style_side no_layout vc_responsive">
+	<div class="body_wrap">
+		<div class="page_wrap">
+			<header class="top_panel top_panel_style_1 without_bg_image scheme_default">
+				<a class="menu_mobile_button"></a>
+				<div class="top_panel_fixed_wrap"></div>
+				<div class="top_panel_navi scheme_dark">
+					<div class="menu_main_wrap clearfix">
+						<div class="wrap">
+							<a class="logo" href="index.html"><img src="images/Logo/" class="logo_main" alt="" /></a>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- Menu lateral Home -->
+			<div class="menu_side_wrap scheme_dark">
+				<div class="menu_side_inner">
+					<a class="menu_mobile_button menu_mobile_button_text">MENU</a>
+				</div>
+			</div>
+			<div class="menu_mobile_overlay"></div>
+			<div class="menu_mobile scheme_dark">
+				<div class="menu_mobile_inner">
+					<a class="menu_mobile_close icon-cancel"></a>
+					<nav class="menu_mobile_nav_area">
+						<ul id="menu_mobile" class="menu_mobile_nav">
+							<li class="menu-item menu-item-has-children"><a href="index.html"><span>Home</span></a>
+							</li>
+							<li class="menu-item menu-item-has-children"><a href="sobrenos.html"><span>Sobre Nós</span></a></li>
+							<li class="menu-item menu-item-has-children"><a href="#"><span>Produtores</span></a>
+								<ul class="sub-menu">
+									<li class="menu-item"><a href="casaromanavini.html"><span>Casa Romana Vini</span></a></li>
+									<li class="menu-item"><a href="foztua.html"><span>Foz Tua</span></a></li>
+									<li class="menu-item"><a href="herdadedocebolal.html"><span>Herdade do Cebolal</span></a></li>
+									<li class="menu-item"><a href="herdadedamingorra.html"><span>Herdade da Mingorra</span></a></li>
+									<li class="menu-item"><a href="quintadoescudial.html"><span>Quinta do Escudial</span></a></li>
+									<li class="menu-item"><a href="quintadalagoavelha.html"><span>Quinta da Lagoa Velha</span></a></li>
+								</ul>
+							</li>
+							<li class="menu-item menu-item-has-children"><a href="Produtos.html"><span>Produtos</span></a></li>
+							<li class="menu-item menu-item-has-children"><a href="contacts.html"><span>Contato</span></a></li>
+						</ul>
+					</nav>
+					<div class="search_mobile">
+						<div class="search_form_wrap">
+							<form role="search" method="get" class="search_form" action="#">
+								<input type="text" class="search_field" placeholder="Pesquisar..." value="" name="s">
+								<button type="submit" class="search_submit icon-search" title="Start search"></button>
+							</form>
+						</div>
+					</div>
+					<div class="socials_mobile"><span class="social_item"><a href="#" target="_blank"
+								class="social_icons social_twitter"><span class="trx_addons_icon-twitter"></span></a>
+						</span><span class="social_item"><a href="#" target="_blank" class="social_icons social_facebook"><span
+									class="trx_addons_icon-facebook"></span></a>
+						</span><span class="social_item"><a href="#" target="_blank" class="social_icons social_instagram"><span
+									class="trx_addons_icon-instagram"></span></a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- Menu lateral Home -->
+
+			<div class="page_content_wrap scheme_default">
+				<div class="content_wrap">
+					<div class="content">
+						<article id="post-691" class="post_item_single post_type_page post-691 page type-page">
+							<div class="post_content entry-content">
+								<div class="row row-no-padding vc_custom_1469089433188 row-o-full-height row-o-columns-middle">
+									<div class="wpb_column vc_column_container column-3_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div style="width:;" class="cqtooltip-wrapper hide_on_mobile" data-opacity="1"
+													data-tooltipanimation="grow" data-tooltipstyle="light" data-trigger="hover"
+													data-maxwidth="210" data-marginoffset="" data-isdisplayall="off" data-displayednum="1"><img
+														src="#" alt="" />
+													<div class="cq-hotspots">
+														<div class="hotspot-item pulse-white " style="top:60%;left:20%;" data-top="60%"
+															data-left="20%">
+															<a href="#" class="cq-tooltip tooltipstered" style="background:#e19931;" data-tooltip="
+																<div class=&quot;wpb_single_image wpb_content_element vc_align_center&quot;>
+																	<figure class=&quot;wpb_wrapper vc_figure&quot;>
+																		<div class=&quot;vc_single_image-wrapper   vc_box_border_grey&quot;><img class=&quot;vc_single_image-img &quot; src=&quot;images/wine-03-210x230.jpg&quot; width=&quot;210&quot; height=&quot;230&quot; alt=&quot;wine-03&quot; title=&quot;wine-03&quot; /></div>
+																	</figure>
+																</div>
+																<div class=&quot;wpb_text_column wpb_content_element  scheme_dark&quot;>
+																	<div class=&quot;wpb_wrapper&quot;>
+																		<p style=&quot;text-align: center;&quot;>
+																			<span class=&quot;trx_addons_dark&quot;><a href=&quot;product.html&quot;>Cabernet Sauvignon</a></span><br />
+																			<span class=&quot;trx_addons_accent trx_addons_tiny_text&quot;>2013</span><br />
+																			<span class=&quot;trx_addons_dark trx_addons_tiny_text&quot;><a href=&quotproduct.html;>See Details</a></span>
+																		</p>
+																	</div>
+																</div>
+																" data-arrowposition=""><span style="background:#ffffff;"></span></a>
+														</div>
+														<div class="hotspot-item pulse-white " style="top:80%;left:90%;" data-top="80%"
+															data-left="90%">
+															<a href="#" class="cq-tooltip tooltipstered" style="background:#e19931;" data-tooltip="
+																<div class=&quot;wpb_single_image wpb_content_element vc_align_center&quot;>
+																	<figure class=&quot;wpb_wrapper vc_figure&quot;>
+																		<div class=&quot;vc_single_image-wrapper   vc_box_border_grey&quot;><img class=&quot;vc_single_image-img &quot; src=&quot;images/wine-01-210x230.jpg&quot; width=&quot;210&quot; height=&quot;230&quot; alt=&quot;wine-01&quot; title=&quot;wine-01&quot; /></div>
+																	</figure>
+																</div>
+																<div class=&quot;wpb_text_column wpb_content_element  scheme_dark&quot;>
+																	<div class=&quot;wpb_wrapper&quot;>
+																		<p style=&quot;text-align: center;&quot;>
+																			<span class=&quot;trx_addons_dark&quot;><a href=&quot;product.html&quot;>Classic Shardonnay</a></span><br />
+																			<span class=&quot;trx_addons_accent trx_addons_tiny_text&quot;>2014</span><br />
+																			<span class=&quot;trx_addons_dark trx_addons_tiny_text&quot;><a href=&quot;product.html&quot;>See Details</a></span>
+																		</p>
+																	</div>
+																</div>
+															" data-arrowposition="top"><span style="background:#ffffff;"></span></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container column-6_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div class="vc_empty_space  height_huge" style="height: 0px"></div>
+												<div class="vc_empty_space  height_huge" style="height: 0px"></div>
+												<div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1469087371560">
+													<figure class="wpb_wrapper vc_figure">
+														<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="520" height="120"
+																src="images/Logo/Logobranca.svg" class="vc_single_image-img attachment-full"
+																alt="laon" /></div>
+													</figure>
+												</div>
+												<div class="vc_empty_space  height_medium" style="height: 0px"></div>
+												<div class="wpb_text_column wpb_content_element  vc_custom_1469087355036">
+													<div class="wpb_wrapper">
+														<p
+															style="text-align: center; font-size: 0.8421em; letter-spacing: 2px; line-height: 1.75em;">
+															<strong><span style="color: #ffffff;">A QUATTRO IMPORT SE DEDICA À ARTE DE CRIAR VINHOS
+																	EXCEPCIONAIS, CULTIVANDO UVAS NA PROPRIEDADE COM METICULOSO CUIDADO PARA ALCANÇAR A
+																	MAIS ALTA QUALIDADE E DISTINÇÃO.</span></strong></p>
+													</div>
+												</div>
+												<div class="vc_empty_space  height_huge" style="height: 0px"></div>
+												<div class="vc_empty_space  height_huge" style="height: 0px"></div>
+											</div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container column-3_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div style="width:;" class="cqtooltip-wrapper hide_on_mobile" data-opacity="1"
+													data-tooltipanimation="grow" data-tooltipstyle="light" data-trigger="hover"
+													data-maxwidth="210" data-marginoffset="" data-isdisplayall="off" data-displayednum="1"><img
+														src="#" alt="" />
+													<div class="cq-hotspots">
+														<div class="hotspot-item pulse-white " style="top:35%;left:10%;" data-top="35%"
+															data-left="10%">
+															<a href="#" class="cq-tooltip tooltipstered" style="background:#e19931;" data-tooltip="
+																<div class=&quot;wpb_single_image wpb_content_element vc_align_center&quot;>
+																	<figure class=&quot;wpb_wrapper vc_figure&quot;>
+																		<div class=&quot;vc_single_image-wrapper vc_box_border_grey&quot;><img class=&quot;vc_single_image-img &quot; src=&quot;images/wine-02-210x230.jpg&quot; width=&quot;210&quot; height=&quot;230&quot; alt=&quot;wine-02&quot; title=&quot;wine-02&quot; /></div>
+																	</figure>
+																</div>
+																<div class=&quot;wpb_text_column wpb_content_element  scheme_dark&quot;>
+																	<div class=&quot;wpb_wrapper&quot;>
+																		<p style=&quot;text-align: center;&quot;>
+																			<span class=&quot;trx_addons_dark&quot;><a href=&quot;product.html&quot;>Johann Shiraz Cabernet</a></span><br />
+																			<span class=&quot;trx_addons_accent trx_addons_tiny_text&quot;>2012</span><br />
+																			<span class=&quot;trx_addons_dark trx_addons_tiny_text&quot;><a href=&quot;product.html&quot;>See Details</a></span>
+																		</p>
+																	</div>
+																</div>
+															" data-arrowposition=""><span style="background:#ffffff;"></span></a>
+														</div>
+														<div class="hotspot-item pulse-white " style="top:60%;left:65%;" data-top="60%"
+															data-left="65%">
+															<a href="#" class="cq-tooltip tooltipstered" style="background:#e19931;" data-tooltip="
+																<div class=&quot;wpb_single_image wpb_content_element vc_align_center&quot;>
+																	<figure class=&quot;wpb_wrapper vc_figure&quot;>
+																		<div class=&quot;vc_single_image-wrapper   vc_box_border_grey&quot;><img class=&quot;vc_single_image-img &quot; src=&quot;images/wine-01-210x230.jpg&quot; width=&quot;210&quot; height=&quot;230&quot; alt=&quot;wine-01&quot; title=&quot;wine-01&quot; /></div>
+																	</figure>
+																</div>
+																<div class=&quot;wpb_text_column wpb_content_element  scheme_dark&quot;>
+																	<div class=&quot;wpb_wrapper&quot;>
+																		<p style=&quot;text-align: center;&quot;>
+																			<span class=&quot;trx_addons_dark&quot;><a href=&quot;product.html&quot;>Classic Shardonnay</a></span><br />
+																			<span class=&quot;trx_addons_accent trx_addons_tiny_text&quot;>2014</span><br />
+																			<span class=&quot;trx_addons_dark trx_addons_tiny_text&quot;><a href=&quot;product.html&quot;>See Details</a></span>
+																		</p>
+																	</div>
+																</div>
+															" data-arrowposition="top"><span style="background:#ffffff;"></span></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="row row-no-padding vc_custom_1466087475749 row-o-full-height row-o-columns-stretch row-o-equal-height">
+									<div class="wpb_column vc_column_container column-12_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<a id="sc_anchor_favourite_place" class="sc_anchor" title="Favourite Place" data-icon=""
+													data-url=""></a>
+												<div class="sc_promo sc_promo_default sc_promo_size_large">
+													<div class="sc_promo_image"
+														style="background-image:url(images/image-21.jpg);width:50%;left: 0;"></div>
+													<div class="sc_promo_text trx_addons_stretch_height" style="width: 50%;float: right;">
+														<div class="sc_promo_text_inner sc_align_center">
+															<div class="sc_promo_icon" data-icon="icon-grape-3"><span class="icon-grape-3"></span>
+															</div>
+															<h2 class="sc_item_title sc_promo_title">Bem-vindo à QUATTRO</h2>
+															<h5 class="sc_item_subtitle sc_promo_subtitle">Prezamos pela qualidade, pela
+																sustentabilidade, pelo amor
+																do produtor para com a vinha e vinho.</h5>
+															<div class="sc_item_descr sc_promo_descr">Cras sodales luctus arcu, ac placerat nunc
+																sagittis a. In at turpis ac nibh luctus sagittis in ut est. Proin sed mi vitae velit
+																convallis gravida imperdiet eu mauris. Maecenas vehicula quam vel urna pulvinar, quis
+																faucibus quam pellentesque.
+																Sed vitae pellentesque velit. Etiam nec ornare tortor.</div>
+															<div class="sc_promo_content sc_item_content">
+																<div class="wpb_single_image wpb_content_element vc_align_center">
+																	<figure class="wpb_wrapper vc_figure">
+																		<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="297"
+																				height="105" src="images/sinature.png"
+																				class="vc_single_image-img attachment-full" alt="sinature" /></div>
+																	</figure>
+																</div>
+															</div>
+															<div class="sc_item_button sc_promo_button sc_button_wrap"><a href="contacts.html"
+																	class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_top"><span
+																		class="sc_button_icon"><span class="icon-down-big"></span></span><span
+																		class="sc_button_text"><span class="sc_button_title">SAIBA MAIS</span></span> </a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Melhores Vinhos Start -->
+
+								<div class="row row-no-padding row-o-full-height row-o-columns-stretch row-o-equal-height">
+									<div class="wpb_column vc_column_container column-12_12 vc_col-has-fill">
+										<div class="vc_column-inner vc_custom_1465806595697">
+											<div class="wpb_wrapper">
+												<a id="sc_anchor_wine_essentials" class="sc_anchor" title="Wine Essentials" data-icon=""
+													data-url=""></a>
+												<div class="sc_promo sc_promo_default sc_promo_size_large">
+													<div class="sc_promo_image"
+														style="background-image:url(images/image-22.jpg);width:50%;right: 0;"></div>
+													<div class="sc_promo_text trx_addons_stretch_height" style="width: 50%;float: left;">
+														<div class="sc_promo_text_inner sc_align_center">
+															<div class="sc_promo_icon" data-icon="icon-grape-leafs"><span
+																	class="icon-grape-leafs"></span></div>
+															<h2 class="sc_item_title sc_promo_title">Melhores Vinhos</h2>
+															<h5 class="sc_item_subtitle sc_promo_subtitle">Lorem ipsum dolor sit amet consectetur
+																adipisicing elit. Perspiciatis, rem.orem</h5>
+															<div class="sc_item_descr sc_promo_descr">Pressing is the act of applying pressure to
+																grapes or pomace in order to separate juice or wine from grapes and grape skins.
+																Pressing is not always a necessary act in winemaking; if grapes are crushed there is a
+																considerable amount of juice
+																immediately liberated (called free-run juice) that can be used for vinification.
+																Typically this free-run juice is of a higher quality than the press juice.</div>
+															<div class="sc_item_button sc_promo_button sc_button_wrap"><a href="about-us.html"
+																	class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_top"><span
+																		class="sc_button_icon"><span class="icon-down-big"></span></span><span
+																		class="sc_button_text"><span class="sc_button_title">SAIBA MAIS</span></span> </a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Melhores Vinhos End -->
+
+
+								<!-- Nossos Vinhos Start -->
+
+								<div class="row row-no-padding row-o-full-height row-o-columns-middle">
+									<div class="wpb_column vc_column_container column-6_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div id="sc_content_1589913683" class="sc_content sc_content_default home_products									">
+													<div class="sc_content_container">
+														<div class="woocommerce columns-2">
+															<ul class="products">
+																<li
+																	class="post-403 product type-product has-post-thumbnail product_cat-red-wines product_tag-55 first instock shipping-taxable purchasable product-type-simple">
+																	<div class="post_item post_layout_thumbs">
+																		<div class="post_featured hover_shop">
+																			<a href="product.html">
+																				<img width="360" height="480" src="images/Vinhos/Vinho1.jpg"
+																					alt="1837_CabernetMerlot_43x2" title="1837_CabernetMerlot_43x2" /> </a>
+																			<div class="mask"></div>
+																			<div class="icons">
+																				<a rel="nofollow" href="#" aria-hidden="true" data-quantity="1"
+																					data-product_id="403" data-product_sku=""
+																					class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple ajax_add_to_cart"></a>
+																				<a href="product.html" aria-hidden="true" class="shop_link icon-link"></a>
+																			</div>
+																		</div>
+																		<div class="post_data">
+																			<div class="post_header entry-header">
+																				<div class="post_tags product_tags"><a href="product.html" rel="tag">2011</a>
+																				</div>
+																				<h3><a href="product.html">1837. Cabernet Merlot</a></h3>
+																				<div class="star-rating" title="Rated 5 out of 5"><span
+																						style="width:100%"><strong class="rating">5</strong> out of 5</span></div>
+																			</div>
+																			<span class="price"><span class="woocommerce-Price-amount amount"><span
+																						class="woocommerce-Price-currencySymbol">&#36;</span>300<span
+																						class="decimals">50</span></span>
+																			</span>
+																			<a rel="nofollow" href="#" data-quantity="1" data-product_id="403"
+																				data-product_sku=""
+																				class="button product_type_simple add_to_cart_button ajax_add_to_cart">Buy
+																				now</a>
+																		</div>
+																	</div>
+																</li>
+																<li
+																	class="post-404 product type-product has-post-thumbnail product_cat-white-wines product_tag-54 last instock shipping-taxable purchasable product-type-simple">
+																	<div class="post_item post_layout_thumbs">
+																		<div class="post_featured hover_shop">
+																			<a href="product.html">
+																				<img width="360" height="480" src="images/Vinhos/Vinho2.jpg"
+																					alt="FineWines_ReevesPoint_Chardonnay_43x2"
+																					title="FineWines_ReevesPoint_Chardonnay_43x2" /> </a>
+																			<div class="mask"></div>
+																			<div class="icons">
+																				<a rel="nofollow" href="#" aria-hidden="true" data-quantity="1"
+																					data-product_id="404" data-product_sku=""
+																					class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple ajax_add_to_cart"></a>
+																				<a href="product.html" aria-hidden="true" class="shop_link icon-link"></a>
+																			</div>
+																		</div>
+																		<div class="post_data">
+																			<div class="post_header entry-header">
+																				<div class="post_tags product_tags"><a href="product.html" rel="tag">2012</a>
+																				</div>
+																				<h3><a href="product.html">Reeves Point</a></h3>
+																			</div>
+																			<span class="price"><span class="woocommerce-Price-amount amount"><span
+																						class="woocommerce-Price-currencySymbol">&#36;</span>247<span
+																						class="decimals">00</span></span>
+																			</span>
+																			<a rel="nofollow" href="#" data-quantity="1" data-product_id="404"
+																				data-product_sku=""
+																				class="button product_type_simple add_to_cart_button ajax_add_to_cart">Buy
+																				now</a>
+																		</div>
+																	</div>
+																</li>
+																<li
+																	class="post-405 product type-product has-post-thumbnail product_cat-white-wines product_tag-51 first instock shipping-taxable purchasable product-type-simple">
+																	<div class="post_item post_layout_thumbs">
+																		<div class="post_featured hover_shop">
+																			<a href="product.html">
+																				<img width="360" height="480" src="images/Vinhos/Vinho3.jpg"
+																					alt="ASoqsTZh-FineWines_Steingarten_Riesling_43x2"
+																					title="ASoqsTZh-FineWines_Steingarten_Riesling_43x2" /> </a>
+																			<div class="mask"></div>
+																			<div class="icons">
+																				<a rel="nofollow" href="#" aria-hidden="true" data-quantity="1"
+																					data-product_id="405" data-product_sku=""
+																					class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple ajax_add_to_cart"></a>
+																				<a href="product.html" aria-hidden="true" class="shop_link icon-link"></a>
+																			</div>
+																			<div class="product_awards"><span>Award</span></div>
+																		</div>
+																		<div class="post_data">
+																			<div class="post_header entry-header">
+																				<div class="post_tags product_tags"><a href="product.html" rel="tag">2013</a>
+																				</div>
+																				<h3><a href="product.html">Steingarten</a></h3>
+																			</div>
+																			<span class="price"><span class="woocommerce-Price-amount amount"><span
+																						class="woocommerce-Price-currencySymbol">&#36;</span>45<span
+																						class="decimals">95</span></span>
+																			</span>
+																			<a rel="nofollow" href="#" data-quantity="1" data-product_id="405"
+																				data-product_sku=""
+																				class="button product_type_simple add_to_cart_button ajax_add_to_cart">Buy
+																				now</a>
+																		</div>
+																	</div>
+																</li>
+																<li
+																	class="post-406 product type-product has-post-thumbnail product_cat-red-wines product_tag-53 last instock shipping-taxable purchasable product-type-simple">
+																	<div class="post_item post_layout_thumbs">
+																		<div class="post_featured hover_shop">
+																			<a href="product.html">
+																				<img width="360" height="480" src="images/Vinhos/Vinho4.jpg"
+																					alt="kaO0w6Nl-FineWines_CentenaryHill_Shiraz_43x2"
+																					title="kaO0w6Nl-FineWines_CentenaryHill_Shiraz_43x2" /> </a>
+																			<div class="mask"></div>
+																			<div class="icons">
+																				<a rel="nofollow" href="#" aria-hidden="true" data-quantity="1"
+																					data-product_id="406" data-product_sku=""
+																					class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple ajax_add_to_cart"></a>
+																				<a href="product.html" aria-hidden="true" class="shop_link icon-link"></a>
+																			</div>
+																			<div class="product_awards"><span>Awards</span></div>
+																		</div>
+																		<div class="post_data">
+																			<div class="post_header entry-header">
+																				<div class="post_tags product_tags"><a href="product.html" rel="tag">2014</a>
+																				</div>
+																				<h3><a href="product.html">Centenary Hill Shiraz</a></h3>
+																				<div class="star-rating" title="Rated 5 out of 5"><span
+																						style="width:100%"><strong class="rating">5</strong> out of 5</span></div>
+																			</div>
+																			<span class="price"><span class="woocommerce-Price-amount amount"><span
+																						class="woocommerce-Price-currencySymbol">&#36;</span>595<span
+																						class="decimals">00</span></span>
+																			</span>
+																			<a rel="nofollow" href="#" data-quantity="1" data-product_id="406"
+																				data-product_sku=""
+																				class="button product_type_simple add_to_cart_button ajax_add_to_cart">Buy
+																				now</a>
+																		</div>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container column-6_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<a id="sc_anchor_our_wines" class="sc_anchor" title="Our Wines" data-icon="" data-url=""></a>
+												<div class="sc_promo sc_promo_default sc_promo_size_large sc_promo_no_image">
+													<div class="sc_promo_text" style="width: 100%;">
+														<div class="sc_promo_text_inner sc_align_center">
+															<div class="sc_promo_icon" data-icon="icon-bottles"><span class="icon-bottles"></span>
+															</div>
+															<h2 class="sc_item_title sc_promo_title">Nosso Vinhos</h2>
+															<h5 class="sc_item_subtitle sc_promo_subtitle">Lorem ipsum dolor sit amet consectetur
+																adipisicing elit.</h5>
+															<div class="sc_item_descr sc_promo_descr">Pressing is the act of applying pressure to
+																grapes or pomace in order to separate juice or wine from grapes and grape skins.
+																Pressing is not always a necessary act in winemaking; if grapes are crushed there is a
+																considerable amount of juice immediately liberated (called free-run juice) that can be
+																used for vinification. Typically this free-run juice is of a higher quality than the
+																press juice.
+															</div>
+															<div class="sc_item_button sc_promo_button sc_button_wrap"><a href="wine-list.html"
+																	class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_top"><span
+																		class="sc_button_icon"><span class="icon-down-big"></span></span><span
+																		class="sc_button_text"><span class="sc_button_title">SAIBA MAIS</span></span> </a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Nossos Vinhos Start -->
+
+
+								<div class="row row-no-padding row-o-full-height row-o-columns-stretch row-o-equal-height">
+									<div class="wpb_column vc_column_container column-6_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div id="sc_content_2046722897" class="sc_content sc_content_default sc_padding_large			">
+													<div class="sc_content_container">
+														<div class="sc_events sc_events_detailed" data-slides-min-width="150">
+															<h2 class="sc_item_title sc_events_title">Eventos</h2>
+															<div class="sc_events_content sc_item_content"><a href="event.html"
+																	class="sc_events_item"><span class="sc_events_item_date_wrap"><span
+																			class="sc_events_item_date">Mar. 21</span></span><span
+																		class="sc_events_item_title_wrap"><span class="sc_events_item_title">Eventos
+																			xxxxxx</span></span><span class="sc_events_item_time_wrap"><span
+																			class="sc_events_item_time">10:00 AM</span></span><span
+																		class="sc_events_item_button_wrap"><span
+																			class="sc_events_item_button">Details</span></span></a><a href="event.html"
+																	class="sc_events_item"><span class="sc_events_item_date_wrap"><span
+																			class="sc_events_item_date">Feb. 12</span></span><span
+																		class="sc_events_item_title_wrap"><span class="sc_events_item_title">Eventos
+																			xxxxxx</span></span><span class="sc_events_item_time_wrap"><span
+																			class="sc_events_item_time">12:15 AM</span></span><span
+																		class="sc_events_item_button_wrap"><span
+																			class="sc_events_item_button">Details</span></span></a></div>
+															<div class="sc_item_button sc_events_button sc_button_wrap"><a href="events.html"
+																	class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_top"><span
+																		class="sc_button_icon"><span class="icon-down-big"></span></span><span
+																		class="sc_button_text"><span class="sc_button_title">Todos Eventos</span></span>
+																</a> </div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container column-6_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<a id="sc_anchor_events" class="sc_anchor" title="Events" data-icon="" data-url=""></a>
+												<div class="sc_action sc_action_event" data-slides-min-width="250">
+													<div class="sc_action_content sc_item_content">
+														<div class="sc_action_item sc_action_item_event with_image trx_addons_stretch_height"
+															style="background-image:url(images/image-20.jpg);">
+															<div class="sc_action_item_mask"></div>
+															<div class="sc_action_item_inner">
+																<div class="sc_action_item_image"><img src="images/glass.png" alt="" width="112"
+																		height="262"></div>
+																<h6 class="sc_action_item_subtitle"><span>Spring Hill</span></h6>
+																<h2 class="sc_action_item_title"><span>FESTIVAL VINHO</span></h2>
+																<div class="sc_action_item_date">SÁBADO, May 7, 2024</div>
+																<div class="sc_action_item_description"><span>Teatro
+																		Modelo</span><span></span><span><b>18-20:00hrs</b></span></div>
+																<div class="sc_action_item_info"><span>33335 Rua exemplo Bairro exemplol * Tel. 800 1235
+																		65 98 * facebook: quatroimport</span></div>
+															</div>
+															<a href="event.html" class="sc_action_item_link sc_action_item_link_over"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row row-no-padding row-o-full-height row-o-columns-middle">
+									<div class="wpb_column vc_column_container column-12_12">
+										<div class="vc_column-inner ">
+											<div class="wrap">
+												<a id="sc_anchor_awards" class="sc_anchor" title="Our awards" data-icon="" data-url=""></a>
+												<div class="vc_empty_space  height_medium" style="height: 0px"></div>
+												<div class="sc_icons sc_icons_default sc_icons_size_medium sc_align_center">
+													<div class="sc_icons_columns sc_item_columns trx_addons_columns_wrap columns_padding_bottom">
+														<div class="trx_addons_column-1_3">
+															<div class="sc_icons_item sc_icons_item_linked">
+																<div class="sc_icons_image"><img src="images/icones/iconpremio.png" alt="" width="276"
+																		height="276"></div>
+																<h4 class="sc_icons_title"><span>Prêmios</span></h4>
+																<div class="sc_icons_description"><span>We make wine with a thought of our customers,
+																		therefore the team...</span></div>
+																<a href="#" class="sc_icons_link"></a>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_3">
+															<div class="sc_icons_item sc_icons_item_linked">
+																<div class="sc_icons_image"><img src="images/icones/iconloja.png" alt="" width="276"
+																		height="276"></div>
+																<h4 class="sc_icons_title"><span>Nossa loja</span></h4>
+																<div class="sc_icons_description"><span>Integer egestas ipsum ut mi convallis lacinia
+																		pellentesque vitae lectus.</span></div>
+																<a href="#" class="sc_icons_link"></a>
+															</div>
+														</div>
+														<div class="trx_addons_column-1_3">
+															<div class="sc_icons_item sc_icons_item_linked">
+																<div class="sc_icons_image"><img src="images/icones/iconevento.png" alt="" width="276"
+																		height="276"></div>
+																<h4 class="sc_icons_title"><span>EVENTOS</span></h4>
+																<div class="sc_icons_description"><span>Etiam laoreet, arcu ut imperdiet facilisis, nunc
+																		tellus consequat nis...</span></div>
+																<a href="#" class="sc_icons_link"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  height_medium" style="height: 0px"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row vc_custom_1466154433105 row-o-full-height row-o-columns-stretch row-o-equal-height">
+									<div class="wpb_column vc_column_container column-4_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper"></div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container column-4_12 vc_col-has-fill">
+										<div class="vc_column-inner vc_custom_1466756857898">
+											<div class="wpb_wrapper">
+												<a id="sc_anchor_address" class="sc_anchor" title="Our Address" data-icon="" data-url=""></a>
+												<div class="vc_empty_space  height_medium" style="height: 0px"></div>
+												<div
+													class="sc_promo sc_promo_default sc_promo_size_normal sc_promo_no_paddings sc_promo_no_image">
+													<div class="sc_promo_text sc_float_center" style="width: 100%;">
+														<div class="sc_promo_text_inner sc_align_center">
+															<div class="logo-cta1">
+																<img src="images/Logo/logo2.svg" alt="logo quattro Import">
+															</div>
+															<h2 class="sc_item_title sc_promo_title">Entre em contato</h2>
+															<h5 class="sc_item_subtitle sc_promo_subtitle">Lorem ipsum dolor sit amet consectetur
+																adipisicing elit. Hic, eos.</h5>
+															<div class="sc_promo_content sc_item_content">
+																<div class="wpb_text_column wpb_content_element ">
+																	<div class="wpb_wrapper">
+																		<p><em><strong>Endereço:</strong></em><br /> Anita Garibaldi, 850 - Sala 203 Torre
+																			Royal - Curitiba</p>
+																		<p><em><strong>Telefone:</strong></em><br /> + 55 41 2118-6655</p>
+																		<p><em><strong>E-mail:</strong></em><br />contato@quattroimport.com
+																		</p>
+																	</div>
+																</div>
+															</div>
+															<div class="sc_item_button sc_promo_button sc_button_wrap"><a href="#"
+																	class="sc_button sc_button_simple sc_button_size_normal sc_button_icon_top"><span
+																		class="sc_button_icon"><span class="icon-down-big"></span></span><span
+																		class="sc_button_text"><span class="sc_button_title">Junte-se à QUATTO
+																			IMPORT</span></span> </a> </div>
+														</div>
+													</div>
+												</div>
+												<div class="vc_empty_space  height_medium" style="height: 0px"></div>
+											</div>
+										</div>
+									</div>
+									<div class="wpb_column vc_column_container column-4_12">
+										<div class="vc_column-inner ">
+											<div class="wpb_wrapper">
+												<div class="cqtooltip-wrapper " data-opacity="1" data-tooltipanimation="grow"
+													data-tooltipstyle="shadow" data-trigger="hover" data-maxwidth="320" data-marginoffset=""
+													data-isdisplayall="off" data-displayednum="1"><img src="images/spacer.png" alt="" />
+													<div class="cq-hotspots">
+														<div class="hotspot-item pulse-white " style="top:44%;left:25%;" data-top="44%"
+															data-left="25%">
+															<a href="#" class="cq-tooltip tooltipstered" style="background:#e39a31;" data-tooltip="
+													<div class=&quot;wpb_gmaps_widget wpb_content_element&quot;>
+															<div class=&quot;wpb_wrapper&quot;>
+															<div class=&quot;wpb_map_wraper&quot;>
+																<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.030668973347!2d-49.27254762461035!3d-25.437238177557226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce46edc2227f1%3A0x44dca4f894990db1!2sQUATTRO%20IMPORT!5e0!3m2!1spt-BR!2sbr!4v1711828275547!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen></iframe>		</div>
+														</div>
+													</div>
+													" data-arrowposition=""><i class="fa icon-placeholder" style="color:#ffffff;"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row wpb_row row-fluid" id="footer_menu">
+									<div class="wpb_column vc_column_container vc_col-sm-12">
+										<div class="vc_column-inner vc_custom_1466156080949">
+											<div class="wpb_wrapper"><a id="sc_anchor_footer_menu" class="sc_anchor" title="Footer menu"
+													data-icon="" data-url=""></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<footer class="site_footer_wrap scheme_dark">
+				<div class="logo_footer_wrap scheme_dark">
+					<div class="logo_footer_wrap_inner">
+						<a href="index.html"><img src="images/Logo/logo3.svg" class="logo_footer_image" alt="" /></a>
+					</div>
+				</div>
+				<div class="socials_footer_wrap socials_wrap scheme_dark">
+					<div class="socials_footer_wrap_inner">
+						<span class="social_item"><a href="#" target="_blank" class="social_icons social_twitter"><span
+									class="trx_addons_icon-twitter"></span></a>
+						</span><span class="social_item"><a href="#" target="_blank" class="social_icons social_facebook"><span
+									class="trx_addons_icon-facebook"></span></a>
+						</span><span class="social_item"><a href="#" target="_blank" class="social_icons social_instagram"><span
+									class="trx_addons_icon-instagram"></span></a>
+						</span>
+					</div>
+				</div>
+				<div class="menu_footer_wrap scheme_dark">
+					<div class="menu_footer_wrap_inner">
+						<nav class="menu_footer_nav_area">
+							<ul id="menu_footer" class="menu_footer_nav">
+								<li class="menu-item menu-item-143"><a href="index.html"><span>home</span></a></li>
+								<li class="menu-item menu-item-675"><a href="about-us.html"><span>SOBRE NÓS</span></a></li>
+								<li class="menu-item menu-item-677"><a href="wine-list.html"><span>PRODUTORES</span></a></li>
+								<li class="menu-item menu-item-676"><a href="contacts.html"><span>contato</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="copyright_wrap scheme_dark">
+					<div class="copyright_wrap_inner">
+						<div class="content_wrap">
+							<div class="copyright_text">QuattroImport © 2024. All rights reserved.</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script type='text/javascript' src='js/vendor/jquery.js'></script>
+	<script type='text/javascript' src='js/vendor/jquery-migrate.min.js'></script>
+	<script type='text/javascript' src='js/vendor/plugins/trx_addons/js/trx_addons.js'></script>
+	<script type='text/javascript' src='js/__scripts.js'></script>
+	<script type='text/javascript' src='js/custom/custom.js'></script>
+	<script type='text/javascript'
+		src='js/vendor/plugins/vc-extensions-bundle/profilecard/js/jquery.tooltipster.min.js'></script>
+	<script type='text/javascript' src='js/vendor/plugins/vc-extensions-bundle/hotspot/js/script.min.js'></script>
+	<a href="#" class="trx_addons_scroll_to_top trx_addons_icon-up" title="Scroll to top"></a>
 </body>
 
 </html>
