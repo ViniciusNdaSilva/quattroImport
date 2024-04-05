@@ -236,7 +236,7 @@
 }
 @media(min-width:769px){
   .row.row-o-full-height {
-    min-height: 100%!important;
+    min-height: 100vh!important;
   }
   .scheme_dark.site_footer_wrap {
     min-height: 100%!important;
